@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+# .sh の拡張子のファイルの場合は「改行コードを常にLFに保つ」を設定
+*.sh text eol=lf
